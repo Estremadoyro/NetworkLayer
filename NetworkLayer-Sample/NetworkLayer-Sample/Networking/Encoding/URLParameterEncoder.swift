@@ -10,7 +10,7 @@ import Foundation
 public struct URLParameterEncoder: ParameterEncoder {
   /// # Takes parameters and makes them safe to be passed as `URL parameters`
   /// As some characters are forbidden in URLs
-  static func encode(urlRequest: inout URLRequest, with parameters: Parameters) throws {
+  public static func encode(urlRequest: inout URLRequest, with parameters: Parameters) throws {
     guard let url = urlRequest.url else { throw NetworkError.missingURL }
     if var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false), !parameters.isEmpty {
       // Must be in order of appearance in the url
