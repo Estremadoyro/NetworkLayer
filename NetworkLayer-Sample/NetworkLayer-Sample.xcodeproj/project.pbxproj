@@ -20,6 +20,8 @@
 		A7DF1AD927EEF04A0030DA50 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF1AD827EEF04A0030DA50 /* ParameterEncoding.swift */; };
 		A7DF1ADB27EEF2740030DA50 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF1ADA27EEF2740030DA50 /* NetworkError.swift */; };
 		A7DF1ADD27EEF2E00030DA50 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF1ADC27EEF2E00030DA50 /* URLParameterEncoder.swift */; };
+		A7DF1ADF27F0DD320030DA50 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF1ADE27F0DD320030DA50 /* JSONParameterEncoder.swift */; };
+		A7DF1AE127F0E2670030DA50 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DF1AE027F0E2670030DA50 /* NetworkRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		A7DF1AD827EEF04A0030DA50 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		A7DF1ADA27EEF2740030DA50 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A7DF1ADC27EEF2E00030DA50 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		A7DF1ADE27F0DD320030DA50 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		A7DF1AE027F0E2670030DA50 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				A7DF1AD227EEED320030DA50 /* EndpointType.swift */,
 				A7DF1AD427EEEDE00030DA50 /* HTTPMethod.swift */,
 				A7DF1AD627EEEF400030DA50 /* HTTPTask.swift */,
+				A7DF1AE027F0E2670030DA50 /* NetworkRouter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			children = (
 				A7DF1AD827EEF04A0030DA50 /* ParameterEncoding.swift */,
 				A7DF1ADC27EEF2E00030DA50 /* URLParameterEncoder.swift */,
+				A7DF1ADE27F0DD320030DA50 /* JSONParameterEncoder.swift */,
 			);
 			path = Encoding;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 				A7DF1AD327EEED320030DA50 /* EndpointType.swift in Sources */,
 				A7DF1AD927EEF04A0030DA50 /* ParameterEncoding.swift in Sources */,
 				A7DF1ACD27EEE2BF0030DA50 /* HomeVC.swift in Sources */,
+				A7DF1ADF27F0DD320030DA50 /* JSONParameterEncoder.swift in Sources */,
+				A7DF1AE127F0E2670030DA50 /* NetworkRouter.swift in Sources */,
 				A7DF1AD527EEEDE00030DA50 /* HTTPMethod.swift in Sources */,
 				A7DF1AD127EEE3950030DA50 /* Nibs.swift in Sources */,
 				A7DF1ADB27EEF2740030DA50 /* NetworkError.swift in Sources */,
